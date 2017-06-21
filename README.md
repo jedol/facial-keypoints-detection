@@ -8,3 +8,8 @@ Demo codes for "Unified Convolutional Neural Network for Direct Facial Keypoints
 ### Trained caffemodel
 * [SPN160_baseline](https://drive.google.com/open?id=0B5wneErwoLwLTFpQU05wY0hIczA)
 * [SPN160_ResNet](https://drive.google.com/open?id=0B5wneErwoLwLcTFWTEk5VzBvdUk)
+
+### Usage
+```Shell
+python tools/demo.py data/1.png data/1.txt models/SPN160_ResNet/SPN160_ResNet_deploy.netpt models/SPN160_ResNet/SPN160_ResNet.caffemodel
+```
